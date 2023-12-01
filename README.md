@@ -1,2 +1,2 @@
 # GreenTrack
-Application mobile GreenTrack devolloper avec kotlin 
+Application mobile GreenTrack developper avec kotlin 
