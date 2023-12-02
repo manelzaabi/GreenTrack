@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0c0f18</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Primary">#70E000</color>
+    <color name="Secondary">#FFA500</color>
+
+    <color name="colorPrimary">#70E000</color>
+    <color name="colorPrimaryDark">#70E000</color>
+    <color name="colorPrimaryLight">#70E000</color>
+    <color name="colorPrimaryOverLay">#70E000</color>
+
+    <color name="colorSecondary">#FFA500</color>
+    <color name="colorSecondaryDark">#FFA500</color>
+    <color name="colorSecondaryLight">#FFA500</color>
+    <color name="colorSecondaryOverLay">#FFA500</color>
+</resources>
