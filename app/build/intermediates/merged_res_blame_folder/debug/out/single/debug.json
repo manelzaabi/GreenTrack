@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_top_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\top_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\anim_vibrate.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\anim\\vibrate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_white_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\white_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_otp_view.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\otp_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_number_otp.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\number_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_forgot_password_change.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\forgot_password_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_mode_edit_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_mode_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_logo1.png.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\logo1.png"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_baseline_drive_file_rename_outline_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\baseline_drive_file_rename_outline_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_profile.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_change_password.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_lock_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_top_button_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\top_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_edit_text_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\edit_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_event_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_event_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_logout_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_logout_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_info_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_check_circle_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\check_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_registre_button_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\registre_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_activity_home_main.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\activity_home_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_edit_profile.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_static_profile.png.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\static_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_download.png.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\download.png"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_local_phone_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_local_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_email_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "tn.esprit.formtaion.app-merged_res-33:/layout_privacy_policy.xml.flat",
+        "source": "tn.esprit.formtaion.app-main-35:/layout/privacy_policy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_baseline_add_a_photo_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\baseline_add_a_photo_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

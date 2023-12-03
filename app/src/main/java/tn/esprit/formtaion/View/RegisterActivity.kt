@@ -101,7 +101,9 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener, View.OnFocus
         mViewModel.getUser().observe(this) {
             Log.d("RegisterActivity", "User observed: $it")
             if(it != null){
-                startActivity(Intent(this , LoginActivity::class.java))
+              //  startActivity(Intent(this , LoginActivity::class.java))
+                intent = Intent(this@RegisterActivity, LoginActivity::class.java)
+                startActivity(intent)
 
             }
         }

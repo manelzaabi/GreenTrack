@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="Primary">#70E000</color>
+    <color name="Secondary">#FFA500</color>
+    <color name="black">#0c0f18</color>
+    <color name="colorPrimary">#70E000</color>
+    <color name="colorPrimaryDark">#70E000</color>
+    <color name="colorPrimaryLight">#70E000</color>
+    <color name="colorPrimaryOverLay">#70E000</color>
+    <color name="colorSecondary">#FFA500</color>
+    <color name="colorSecondaryDark">#FFA500</color>
+    <color name="colorSecondaryLight">#FFA500</color>
+    <color name="colorSecondaryOverLay">#FFA500</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Formtaion</string>
+    <string name="email">Email</string>
+    <string name="fullname">Fullname</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="verify_password">Verify Password</string>
+    <style name="Base.Theme.Formtaion" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryVariant">@color/Primary</item>
+        <item name="colorOnPrimary">@color/Primary</item>
+        
+        <item name="colorSecondary">@color/Secondary</item>
+        <item name="colorSecondaryVariant">@color/Secondary</item>
+        <item name="colorOnSecondary">@color/Secondary</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/Primary</item>
+
+
+    </style>
+    <style name="Theme.Formtaion" parent="Base.Theme.Formtaion"/>
+</resources>

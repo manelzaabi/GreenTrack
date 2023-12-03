@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="Base.Theme.Formtaion" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryVariant">@color/Primary</item>
+        <item name="colorOnPrimary">@color/Primary</item>
+        
+        <item name="colorSecondary">@color/Secondary</item>
+        <item name="colorSecondaryVariant">@color/Secondary</item>
+        <item name="colorOnSecondary">@color/Secondary</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">@color/Primary</item>
+    </style>
+</resources>
