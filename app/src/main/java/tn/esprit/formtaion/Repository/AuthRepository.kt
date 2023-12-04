@@ -43,21 +43,21 @@ class AuthRepository(private val consummer: ApiConsummer) {
     }
 
 
-
-        fun loginUser(body: LoginBody) = flow {
-            emit(RequestStatus.Waiting)
-            val response = consummer.loginUser(body)
-            if (response.isSuccessful) {
-                emit((RequestStatus.Success(response.body()!!)))
-            } else {
-                emit(
-                    RequestStatus.Error(
-                        SimplifiedMessage.get(
-                            response.errorBody()!!.byteStream().reader().readText()
-                        )
+    fun loginUser(body: LoginBody) = flow {
+        emit(RequestStatus.Waiting)
+        val response = consummer.loginUser(body)
+        if (response.isSuccessful) {
+            emit((RequestStatus.Success(response.body()!!)))
+        } else {
+            emit(
+                RequestStatus.Error(
+                    SimplifiedMessage.get(
+                        response.errorBody()!!.byteStream().reader().readText()
                     )
                 )
-            }
+            )
         }
+    }
+
 
 }

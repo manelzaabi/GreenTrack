@@ -7,7 +7,6 @@ import android.util.Patterns
 import android.view.KeyEvent
 import android.view.LayoutInflater
 import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
@@ -21,10 +20,11 @@ import tn.esprit.formtaion.ViewModel.LoginActivityViewModelFactory
 import tn.esprit.formtaion.data.LoginBody
 import tn.esprit.formtaion.databinding.ActivityMainBinding
 
-class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusChangeListener , View.OnKeyListener {
+class LoginActivity : AppCompatActivity(), View.OnClickListener, View.OnFocusChangeListener,
+    View.OnKeyListener {
 
     private lateinit var mBinding: ActivityMainBinding
-    private  lateinit var  mViewModel: LoginActivityViewModel
+    private lateinit var mViewModel: LoginActivityViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,7 +38,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
         mBinding.emailEt.onFocusChangeListener = this
         mBinding.passwordEt.onFocusChangeListener = this
         mBinding.passwordEt.setOnKeyListener(this)
-        mViewModel = ViewModelProvider(this, LoginActivityViewModelFactory(AuthRepository(APIService.getService()), application)).get(LoginActivityViewModel::class.java)
+        mViewModel = ViewModelProvider(
+            this,
+            LoginActivityViewModelFactory(AuthRepository(APIService.getService()), application)
+        ).get(LoginActivityViewModel::class.java)
 
         setupObservers()
 
@@ -63,7 +66,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
                                 error = entry.value
                             }
                         }
-
 
 
                         "password" -> {
@@ -98,6 +100,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
             }
         }
     }
+
     private fun validationEmail(shouldVibrateView: Boolean = true): Boolean {
         var errorMessage: String? = null
         val value = mBinding.emailEt.text.toString()
@@ -140,6 +143,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
         }
         return errorMessage == null
     }
+
     private fun validate(): Boolean {
         var isValid = true
 
@@ -166,14 +170,16 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
         }
     }*/
     override fun onClick(view: View?) {
-        if (view != null){
-            when(view.id){
+        if (view != null) {
+            when (view.id) {
                 R.id.loginBtn -> {
                     submitForm()
                 }
+
                 R.id.registerBtn -> {
                     startActivity(Intent(this, RegisterActivity::class.java))
                 }
+
                 R.id.privacypolicy -> {
                     startActivity(Intent(this, PrivacyPolicyActivity::class.java))
                 }
@@ -199,7 +205,6 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
                 }
 
 
-
                 R.id.passwordEt -> {
                     if (hasFocus) {
                         if (mBinding.passwordTil.isErrorEnabled) {
@@ -207,26 +212,32 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener , View.OnFocusCh
                         }
 
                     } else {
-                         validatePassword()
+                        validatePassword()
                     }
 
                 }
 
 
-
             }
         }
     }
-    private fun submitForm(){
-        if (validate()){
+
+    private fun submitForm() {
+        if (validate()) {
             //verify user credentials
-            mViewModel.loginUser(LoginBody(mBinding.emailEt.text!!.toString() , mBinding.passwordEt.text!!.toString()))
+            mViewModel.loginUser(
+                LoginBody(
+                    mBinding.emailEt.text!!.toString(),
+                    mBinding.passwordEt.text!!.toString()
+                )
+            )
         }
     }
+
     override fun onKey(view: View?, KeyCode: Int, keyEvent: KeyEvent?): Boolean {
-    if(KeyCode == KeyEvent.KEYCODE_ENTER && keyEvent!!.keyCode ==KeyEvent.ACTION_UP){
-        submitForm()
-    }
+        if (KeyCode == KeyEvent.KEYCODE_ENTER && keyEvent!!.keyCode == KeyEvent.ACTION_UP) {
+            submitForm()
+        }
 
         return false
     }

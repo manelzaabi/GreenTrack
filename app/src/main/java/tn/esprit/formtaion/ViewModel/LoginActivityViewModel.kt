@@ -10,9 +10,7 @@ import tn.esprit.formtaion.Repository.AuthRepository
 import tn.esprit.formtaion.Utils.AuthToken
 import tn.esprit.formtaion.Utils.RequestStatus
 import tn.esprit.formtaion.data.LoginBody
-import tn.esprit.formtaion.data.RegisterBody
 import tn.esprit.formtaion.data.User
-import tn.esprit.formtaion.data.ValidateEmailBody
 
 class LoginActivityViewModel(val authRepository: AuthRepository, val application: Application) :
     ViewModel() {
@@ -25,7 +23,6 @@ class LoginActivityViewModel(val authRepository: AuthRepository, val application
     fun getIsLoading(): LiveData<Boolean> = isLoading
     fun getErrorMessage(): LiveData<HashMap<String, String>> = errorMessage
     fun getUser(): LiveData<User> = user
-
 
 
     fun loginUser(body: LoginBody) {

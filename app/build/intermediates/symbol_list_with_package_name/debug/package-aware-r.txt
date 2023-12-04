@@ -3133,7 +3133,6 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
-id appCompatImageView
 id appCompatImageView2
 id appCompatImageView3
 id appCompatImageView4
@@ -3236,6 +3235,8 @@ id editText2
 id editText3
 id edit_query
 id elastic
+id email
+id emailAff
 id emailEt
 id emailTil
 id embed
@@ -3264,6 +3265,7 @@ id fragment_container_view_tag
 id frost
 id fullNameEt
 id fullNameTil
+id fullname
 id fullscreen_header
 id ghost_view
 id ghost_view_holder
@@ -3542,11 +3544,7 @@ id textTop
 id textView
 id textView1
 id textView10
-id textView11
-id textView12
-id textView13
 id textView14
-id textView15
 id textView16
 id textView2
 id textView3

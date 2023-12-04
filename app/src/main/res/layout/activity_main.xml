@@ -193,8 +193,8 @@
             android:id="@+id/loginWithGooge"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="5dp"
             android:clickable="true"
+            android:padding="5dp"
             android:src="@drawable/download" />
 
 

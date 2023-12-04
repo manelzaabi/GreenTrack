@@ -4,10 +4,6 @@
         "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\edit_profile.xml"
     },
     {
-        "merged": "tn.esprit.formtaion.app-mergeDebugResources-32:/layout/activity_main.xml",
-        "source": "tn.esprit.formtaion.app-main-35:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-mergeDebugResources-32:\\layout\\privacy_policy.xml",
         "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\privacy_policy.xml"
     },
@@ -18,6 +14,10 @@
     {
         "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-mergeDebugResources-32:\\layout\\number_otp.xml",
         "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\layout\\number_otp.xml"
+    },
+    {
+        "merged": "tn.esprit.formtaion.app-mergeDebugResources-32:/layout/profile_activity.xml",
+        "source": "tn.esprit.formtaion.app-main-35:/layout/profile_activity.xml"
     },
     {
         "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-mergeDebugResources-32:\\layout\\activity_home_main.xml",

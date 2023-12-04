@@ -96,10 +96,6 @@
         "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\edit_text_background.xml"
     },
     {
-        "merged": "tn.esprit.formtaion.app-merged_res-33:/layout_activity_main.xml.flat",
-        "source": "tn.esprit.formtaion.app-main-35:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_event_24.xml.flat",
         "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_event_24.xml"
     },
@@ -110,6 +106,10 @@
     {
         "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_outline_logout_24.xml.flat",
         "source": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-main-35:\\drawable\\outline_logout_24.xml"
+    },
+    {
+        "merged": "tn.esprit.formtaion.app-merged_res-33:/layout_profile_activity.xml.flat",
+        "source": "tn.esprit.formtaion.app-main-35:/layout/profile_activity.xml"
     },
     {
         "merged": "C:\\Users\\Issam Gzt\\.gradle\\daemon\\8.0\\tn.esprit.formtaion.app-merged_res-33:\\drawable_logo.png.flat",

@@ -9,11 +9,11 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.VIBRATE" />
-12-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:6:5-66
-12-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:6:22-63
+12-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:7:5-66
+12-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:7:22-63
 13
 14    <permission
 14-->[androidx.core:core:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
@@ -27,67 +27,67 @@
 18-->[androidx.core:core:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:8:5-45:19
+20-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:9:5-43:19
 21        android:allowBackup="true"
-21-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:9:9-35
+21-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:10:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:10:9-65
+23-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:11:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:11:9-54
+26-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:12:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:12:9-43
+27-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:13:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:13:9-41
+28-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:14:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:14:9-54
+29-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:15:9-54
 30        android:supportsRtl="true"
-30-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:15:9-35
+30-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:16:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.Formtaion"
-32-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:16:9-47
+32-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:17:9-47
 33        android:usesCleartextTraffic="true" >
-33-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:17:9-44
+33-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:18:9-44
 34        <activity
-34-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:20:9-27:20
+34-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:21:9-28:20
 35            android:name="tn.esprit.formtaion.View.LoginActivity"
-35-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:21:13-47
+35-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:22:13-47
 36            android:exported="true" >
-36-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:22:13-36
+36-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:23:13-36
 37            <intent-filter>
-37-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:23:13-26:29
+37-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:24:13-27:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:24:17-69
-38-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:24:25-66
+38-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:25:17-69
+38-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:25:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:25:17-77
-40-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:25:27-74
+40-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:26:17-77
+40-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:26:27-74
 41            </intent-filter>
 42        </activity>
 43        <activity
-43-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:29:9-31:40
+43-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:30:9-32:40
 44            android:name="tn.esprit.formtaion.View.RegisterActivity"
-44-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:30:13-50
+44-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:31:13-50
 45            android:exported="false" />
-45-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:31:13-37
+45-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:32:13-37
 46
-47        <!-- Ajoute l'activité ProfileActivity -->
+47        <!-- Ajoute l'activité tn.esprit.formtaion.View.ProfileActivity -->
 48        <activity
-48-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:36:9-38:40
+48-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:35:9-37:40
 49            android:name="tn.esprit.formtaion.View.ProfileActivity"
-49-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:37:13-49
+49-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:36:13-49
 50            android:exported="false" />
-50-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:38:13-37
+50-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:37:13-37
 51        <activity
-51-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:40:9-42:39
+51-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:39:9-41:40
 52            android:name="tn.esprit.formtaion.View.PrivacyPolicyActivity"
-52-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:41:13-55
+52-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:40:13-55
 53            android:exported="false" />
-53-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:42:13-37
+53-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:41:13-37
 54
 55        <provider
 55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

@@ -3132,7 +3132,6 @@ int id animateToEnd 0x7f08004d
 int id animateToStart 0x7f08004e
 int id antiClockwise 0x7f08004f
 int id anticipate 0x7f080050
-int id appCompatImageView 0x7f080051
 int id appCompatImageView2 0x7f080052
 int id appCompatImageView3 0x7f080053
 int id appCompatImageView4 0x7f080054
@@ -3235,6 +3234,8 @@ int id editText2 0x7f0800b5
 int id editText3 0x7f0800b6
 int id edit_query 0x7f0800b7
 int id elastic 0x7f0800b8
+int id email 0x7f08022b
+int id emailAff 0x7f08022e
 int id emailEt 0x7f0800b9
 int id emailTil 0x7f0800ba
 int id embed 0x7f0800bb
@@ -3263,6 +3264,7 @@ int id fragment_container_view_tag 0x7f0800d1
 int id frost 0x7f0800d2
 int id fullNameEt 0x7f0800d3
 int id fullNameTil 0x7f0800d4
+int id fullname 0x7f08022c
 int id fullscreen_header 0x7f0800d5
 int id ghost_view 0x7f0800d6
 int id ghost_view_holder 0x7f0800d7
@@ -3541,11 +3543,7 @@ int id textTop 0x7f0801e3
 int id textView 0x7f0801e4
 int id textView1 0x7f0801e5
 int id textView10 0x7f0801e6
-int id textView11 0x7f0801e7
-int id textView12 0x7f0801e8
-int id textView13 0x7f0801e9
 int id textView14 0x7f0801ea
-int id textView15 0x7f0801eb
 int id textView16 0x7f0801ec
 int id textView2 0x7f0801ed
 int id textView3 0x7f0801ee

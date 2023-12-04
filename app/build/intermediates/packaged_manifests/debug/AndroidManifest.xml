@@ -44,7 +44,7 @@
             android:name="tn.esprit.formtaion.View.RegisterActivity"
             android:exported="false" />
 
-        <!-- Ajoute l'activité ProfileActivity -->
+        <!-- Ajoute l'activité tn.esprit.formtaion.View.ProfileActivity -->
         <activity
             android:name="tn.esprit.formtaion.View.ProfileActivity"
             android:exported="false" />
