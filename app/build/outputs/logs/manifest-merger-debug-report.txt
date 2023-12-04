@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\f575a921f4883b7da1dfb68c88f72817\transformed\viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\b2975fe4adb915677874473da1fc9791\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\b84fd8e0913fbee5ea341511771bb46a\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
@@ -68,8 +68,8 @@ ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:6:22-63
 application
-ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:8:5-37:19
-INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:8:5-37:19
+ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:8:5-45:19
+INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:8:5-45:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\b84fd8e0913fbee5ea341511771bb46a\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\b84fd8e0913fbee5ea341511771bb46a\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.airbnb.android:lottie:4.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\5c3d1d1f2a5a4f5a265cd5289413ca7b\transformed\lottie-4.2.0\AndroidManifest.xml:9:5-20
@@ -132,12 +132,18 @@ ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
 		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:30:13-50
-activity#tn.esprit.formtaion.View.HomeActivity
-ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:33:9-35:40
+activity#tn.esprit.formtaion.View.ProfileActivity
+ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:36:9-38:40
 	android:exported
-		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:34:13-46
+		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:37:13-49
+activity#tn.esprit.formtaion.View.PrivacyPolicyActivity
+ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:40:9-42:39
+	android:exported
+		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:41:13-55
 uses-sdk
 INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml

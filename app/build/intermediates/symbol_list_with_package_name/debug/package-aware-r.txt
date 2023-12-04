@@ -3128,7 +3128,6 @@ id alertTitle
 id aligned
 id all
 id allStates
-id allerRegister
 id always
 id animateToEnd
 id animateToStart
@@ -3185,7 +3184,6 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
-id constraintLayout
 id container
 id content
 id contentPanel
@@ -3316,6 +3314,8 @@ id linearLayout2
 id linearLayout3
 id listMode
 id list_item
+id loginBtn
+id loginWithGooge
 id lottie_layer_name
 id m3_side_sheet
 id marquee
@@ -3424,12 +3424,14 @@ id pin
 id position
 id postLayout
 id pressed
+id privacypolicy
 id progressBar
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerBtn
 id registreBtn
 id restart
 id reverse
@@ -3552,6 +3554,7 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id text_input_end_icon
 id text_input_error_icon
@@ -3716,8 +3719,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_home
-layout activity_home_main
 layout activity_main
 layout activity_register
 layout change_password
@@ -3799,7 +3800,7 @@ layout notification_template_part_time
 layout number_otp
 layout otp_view
 layout privacy_policy
-layout profile
+layout profile_activity
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

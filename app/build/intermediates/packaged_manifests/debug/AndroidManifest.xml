@@ -43,8 +43,13 @@
         <activity
             android:name="tn.esprit.formtaion.View.RegisterActivity"
             android:exported="false" />
+
+        <!-- Ajoute l'activité ProfileActivity -->
         <activity
-            android:name="tn.esprit.formtaion.View.HomeActivity"
+            android:name="tn.esprit.formtaion.View.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="tn.esprit.formtaion.View.PrivacyPolicyActivity"
             android:exported="false" />
 
         <provider

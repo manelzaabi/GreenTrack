@@ -5,7 +5,6 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.view.View
-import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import tn.esprit.formtaion.R
 
@@ -20,7 +19,7 @@ class VibrateView {
                     )
                 )
             }
-            val animation = AnimationUtils.loadAnimation(context , R.anim.vibrate)
+            val animation = AnimationUtils.loadAnimation(context, R.anim.vibrate)
             view.startAnimation(animation)
 
         }

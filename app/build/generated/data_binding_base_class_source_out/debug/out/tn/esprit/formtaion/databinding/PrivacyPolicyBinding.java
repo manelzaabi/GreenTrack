@@ -23,12 +23,16 @@ public final class PrivacyPolicyBinding implements ViewBinding {
   public final TextView textView16;
 
   @NonNull
+  public final TextView textView8;
+
+  @NonNull
   public final TextView textView9;
 
   private PrivacyPolicyBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textView16,
-      @NonNull TextView textView9) {
+      @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.textView16 = textView16;
+    this.textView8 = textView8;
     this.textView9 = textView9;
   }
 
@@ -65,13 +69,20 @@ public final class PrivacyPolicyBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView8;
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+      if (textView8 == null) {
+        break missingId;
+      }
+
       id = R.id.textView9;
       TextView textView9 = ViewBindings.findChildViewById(rootView, id);
       if (textView9 == null) {
         break missingId;
       }
 
-      return new PrivacyPolicyBinding((ConstraintLayout) rootView, textView16, textView9);
+      return new PrivacyPolicyBinding((ConstraintLayout) rootView, textView16, textView8,
+          textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

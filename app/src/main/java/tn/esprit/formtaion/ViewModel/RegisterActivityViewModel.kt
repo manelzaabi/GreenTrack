@@ -28,41 +28,19 @@ class RegisterActivityViewModel(val authRepository: AuthRepository, val applicat
     fun getUser(): LiveData<User> = user
 
     fun validateEmailAdress(body: ValidateEmailBody) {
-    viewModelScope.launch {
-        authRepository.validateEmailAdress(body).collect(){
-            when(it) {
-                is RequestStatus.Waiting -> {
-                    isLoading.value = true
-                }
-                is RequestStatus.Success -> {
-                    isLoading.value = false
-                    isUniqueEmail.value = it.data.isUnique
-
-                }
-                is RequestStatus.Error -> {
-                    isLoading.value = false
-                    errorMessage.value = it.message
-
-                    }
-                }
-            }
-        }
-    }
-
-    fun registerUser(body : RegisterBody){
         viewModelScope.launch {
-            authRepository.registerUser(body).collect{
-                when(it) {
+            authRepository.validateEmailAdress(body).collect() {
+                when (it) {
                     is RequestStatus.Waiting -> {
                         isLoading.value = true
                     }
+
                     is RequestStatus.Success -> {
                         isLoading.value = false
-                        user.value = it.data.user
-                        // save token using shared preferences
-                        AuthToken.getInstance(application.baseContext).token = it.data.token
+                        isUniqueEmail.value = it.data.isUnique
 
                     }
+
                     is RequestStatus.Error -> {
                         isLoading.value = false
                         errorMessage.value = it.message
@@ -72,5 +50,31 @@ class RegisterActivityViewModel(val authRepository: AuthRepository, val applicat
             }
         }
     }
+
+    fun registerUser(body: RegisterBody) {
+        viewModelScope.launch {
+            authRepository.registerUser(body).collect {
+                when (it) {
+                    is RequestStatus.Waiting -> {
+                        isLoading.value = true
+                    }
+
+                    is RequestStatus.Success -> {
+                        isLoading.value = false
+                        user.value = it.data.user
+                        // save token using shared preferences
+                        AuthToken.getInstance(application.baseContext).token = it.data.token
+
+                    }
+
+                    is RequestStatus.Error -> {
+                        isLoading.value = false
+                        errorMessage.value = it.message
+
+                    }
+                }
+            }
+        }
     }
+}
 

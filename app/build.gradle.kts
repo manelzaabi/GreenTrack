@@ -59,6 +59,4 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
 
 
-
-
 }

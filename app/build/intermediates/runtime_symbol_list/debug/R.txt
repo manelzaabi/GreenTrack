@@ -3127,7 +3127,6 @@ int id alertTitle 0x7f080047
 int id aligned 0x7f080048
 int id all 0x7f080049
 int id allStates 0x7f08004a
-int id allerRegister 0x7f08004b
 int id always 0x7f08004c
 int id animateToEnd 0x7f08004d
 int id animateToStart 0x7f08004e
@@ -3184,7 +3183,6 @@ int id collapseActionView 0x7f080080
 int id compress 0x7f080081
 int id confirm_button 0x7f080082
 int id constraint 0x7f080083
-int id constraintLayout 0x7f080084
 int id container 0x7f080085
 int id content 0x7f080086
 int id contentPanel 0x7f080087
@@ -3315,6 +3313,8 @@ int id linearLayout2 0x7f080103
 int id linearLayout3 0x7f080104
 int id listMode 0x7f080105
 int id list_item 0x7f080106
+int id loginBtn 0x7f080228
+int id loginWithGooge 0x7f080227
 int id lottie_layer_name 0x7f080107
 int id m3_side_sheet 0x7f080108
 int id marquee 0x7f080109
@@ -3423,12 +3423,14 @@ int id pin 0x7f08016f
 int id position 0x7f080170
 int id postLayout 0x7f080171
 int id pressed 0x7f080172
+int id privacypolicy 0x7f08022a
 int id progressBar 0x7f080173
 int id progress_circular 0x7f080174
 int id progress_horizontal 0x7f080175
 int id radio 0x7f080176
 int id ratio 0x7f080177
 int id rectangles 0x7f080178
+int id registerBtn 0x7f080229
 int id registreBtn 0x7f080179
 int id restart 0x7f08017a
 int id reverse 0x7f08017b
@@ -3551,6 +3553,7 @@ int id textView4 0x7f0801ef
 int id textView5 0x7f0801f0
 int id textView6 0x7f0801f1
 int id textView7 0x7f0801f2
+int id textView8 0x7f080226
 int id textView9 0x7f0801f3
 int id text_input_end_icon 0x7f0801f4
 int id text_input_error_icon 0x7f0801f5
@@ -3715,8 +3718,6 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
-int layout activity_home 0x7f0b001c
-int layout activity_home_main 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_register 0x7f0b001f
 int layout change_password 0x7f0b0020
@@ -3798,7 +3799,7 @@ int layout notification_template_part_time 0x7f0b006b
 int layout number_otp 0x7f0b006c
 int layout otp_view 0x7f0b006d
 int layout privacy_policy 0x7f0b006e
-int layout profile 0x7f0b006f
+int layout profile_activity 0x7f0b0074
 int layout select_dialog_item_material 0x7f0b0070
 int layout select_dialog_multichoice_material 0x7f0b0071
 int layout select_dialog_singlechoice_material 0x7f0b0072

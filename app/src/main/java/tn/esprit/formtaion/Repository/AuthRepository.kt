@@ -4,6 +4,7 @@ import kotlinx.coroutines.flow.flow
 import tn.esprit.formtaion.Utils.ApiConsummer
 import tn.esprit.formtaion.Utils.RequestStatus
 import tn.esprit.formtaion.Utils.SimplifiedMessage
+import tn.esprit.formtaion.data.LoginBody
 import tn.esprit.formtaion.data.RegisterBody
 import tn.esprit.formtaion.data.ValidateEmailBody
 
@@ -25,7 +26,7 @@ class AuthRepository(private val consummer: ApiConsummer) {
 
     }
 
-    fun registerUser(body: RegisterBody) = flow{
+    fun registerUser(body: RegisterBody) = flow {
         emit(RequestStatus.Waiting)
         val response = consummer.registerUser(body)
         if (response.isSuccessful) {
@@ -40,4 +41,23 @@ class AuthRepository(private val consummer: ApiConsummer) {
             )
         }
     }
+
+
+
+        fun loginUser(body: LoginBody) = flow {
+            emit(RequestStatus.Waiting)
+            val response = consummer.loginUser(body)
+            if (response.isSuccessful) {
+                emit((RequestStatus.Success(response.body()!!)))
+            } else {
+                emit(
+                    RequestStatus.Error(
+                        SimplifiedMessage.get(
+                            response.errorBody()!!.byteStream().reader().readText()
+                        )
+                    )
+                )
+            }
+        }
+
 }

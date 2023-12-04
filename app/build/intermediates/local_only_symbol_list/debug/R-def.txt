@@ -37,14 +37,12 @@ drawable static_profile
 drawable top_background
 drawable top_button_background
 drawable white_background
-id allerRegister
 id appCompatImageView
 id appCompatImageView2
 id appCompatImageView3
 id appCompatImageView4
 id btn_img
 id cardView
-id constraintLayout
 id editText
 id editText2
 id editText3
@@ -60,6 +58,8 @@ id imageView8
 id linearLayout
 id linearLayout2
 id linearLayout3
+id loginBtn
+id loginWithGooge
 id otpDigit1
 id otpDigit2
 id otpDigit3
@@ -68,7 +68,9 @@ id passwordEt
 id passwordTil
 id phoneEt
 id phoneTil
+id privacypolicy
 id progressBar
+id registerBtn
 id registreBtn
 id textView
 id textView1
@@ -85,11 +87,10 @@ id textView4
 id textView5
 id textView6
 id textView7
+id textView8
 id textView9
 id verifypasswordEt
 id virifypasswordTil
-layout activity_home
-layout activity_home_main
 layout activity_main
 layout activity_register
 layout change_password
@@ -98,7 +99,7 @@ layout forgot_password_change
 layout number_otp
 layout otp_view
 layout privacy_policy
-layout profile
+layout profile_activity
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

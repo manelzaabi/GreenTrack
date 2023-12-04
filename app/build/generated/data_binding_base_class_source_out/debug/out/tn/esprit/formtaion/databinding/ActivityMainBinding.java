@@ -4,10 +4,13 @@ package tn.esprit.formtaion.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
@@ -24,9 +27,6 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ConstraintLayout allerRegister;
-
-  @NonNull
   public final CardView cardView;
 
   @NonNull
@@ -39,28 +39,44 @@ public final class ActivityMainBinding implements ViewBinding {
   public final LinearLayout linearLayout;
 
   @NonNull
+  public final AppCompatButton loginBtn;
+
+  @NonNull
+  public final ImageView loginWithGooge;
+
+  @NonNull
   public final TextInputEditText passwordEt;
 
   @NonNull
   public final TextInputLayout passwordTil;
 
   @NonNull
-  public final TextView textView;
+  public final TextView privacypolicy;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout allerRegister, @NonNull CardView cardView,
+  @NonNull
+  public final RelativeLayout progressBar;
+
+  @NonNull
+  public final ConstraintLayout registerBtn;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
       @NonNull TextInputEditText emailEt, @NonNull TextInputLayout emailTil,
-      @NonNull LinearLayout linearLayout, @NonNull TextInputEditText passwordEt,
-      @NonNull TextInputLayout passwordTil, @NonNull TextView textView) {
+      @NonNull LinearLayout linearLayout, @NonNull AppCompatButton loginBtn,
+      @NonNull ImageView loginWithGooge, @NonNull TextInputEditText passwordEt,
+      @NonNull TextInputLayout passwordTil, @NonNull TextView privacypolicy,
+      @NonNull RelativeLayout progressBar, @NonNull ConstraintLayout registerBtn) {
     this.rootView = rootView;
-    this.allerRegister = allerRegister;
     this.cardView = cardView;
     this.emailEt = emailEt;
     this.emailTil = emailTil;
     this.linearLayout = linearLayout;
+    this.loginBtn = loginBtn;
+    this.loginWithGooge = loginWithGooge;
     this.passwordEt = passwordEt;
     this.passwordTil = passwordTil;
-    this.textView = textView;
+    this.privacypolicy = privacypolicy;
+    this.progressBar = progressBar;
+    this.registerBtn = registerBtn;
   }
 
   @Override
@@ -90,12 +106,6 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.allerRegister;
-      ConstraintLayout allerRegister = ViewBindings.findChildViewById(rootView, id);
-      if (allerRegister == null) {
-        break missingId;
-      }
-
       id = R.id.cardView;
       CardView cardView = ViewBindings.findChildViewById(rootView, id);
       if (cardView == null) {
@@ -120,6 +130,18 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loginBtn;
+      AppCompatButton loginBtn = ViewBindings.findChildViewById(rootView, id);
+      if (loginBtn == null) {
+        break missingId;
+      }
+
+      id = R.id.loginWithGooge;
+      ImageView loginWithGooge = ViewBindings.findChildViewById(rootView, id);
+      if (loginWithGooge == null) {
+        break missingId;
+      }
+
       id = R.id.passwordEt;
       TextInputEditText passwordEt = ViewBindings.findChildViewById(rootView, id);
       if (passwordEt == null) {
@@ -132,14 +154,27 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView;
-      TextView textView = ViewBindings.findChildViewById(rootView, id);
-      if (textView == null) {
+      id = R.id.privacypolicy;
+      TextView privacypolicy = ViewBindings.findChildViewById(rootView, id);
+      if (privacypolicy == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, allerRegister, cardView, emailEt,
-          emailTil, linearLayout, passwordEt, passwordTil, textView);
+      id = R.id.progressBar;
+      RelativeLayout progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.registerBtn;
+      ConstraintLayout registerBtn = ViewBindings.findChildViewById(rootView, id);
+      if (registerBtn == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, cardView, emailEt, emailTil,
+          linearLayout, loginBtn, loginWithGooge, passwordEt, passwordTil, privacypolicy,
+          progressBar, registerBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
