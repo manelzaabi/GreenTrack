@@ -8,7 +8,6 @@ import kotlinx.coroutines.launch
 import retrofit2.Response
 import tn.esprit.formtaion.Utils.APIService
 import tn.esprit.formtaion.data.AuthResponse
-import tn.esprit.formtaion.Utils.AuthToken
 import tn.esprit.formtaion.data.User
 
 class ProfileViewModel : ViewModel() {
@@ -27,7 +26,8 @@ class ProfileViewModel : ViewModel() {
 
                 println("Auth Token: $authToken")
 
-                val response: Response<AuthResponse> = apiService.authenticateProfile("Bearer $authToken")
+                val response: Response<AuthResponse> =
+                    apiService.authenticateProfile("Bearer $authToken")
 
                 // Ajoutez un journal pour vérifier la réponse de l'appel réseau
                 println("API Call Response: $response")
@@ -45,7 +45,8 @@ class ProfileViewModel : ViewModel() {
                     println("User: $user")
                 } else {
                     // Handle unsuccessful response (e.g., display an error message)
-                    val errorMessage = "Erreur lors de l'authentification du profil : ${response.message()}"
+                    val errorMessage =
+                        "Erreur lors de l'authentification du profil : ${response.message()}"
                     errorLiveData.postValue(errorMessage)
                     println(errorMessage)
                 }
@@ -58,7 +59,6 @@ class ProfileViewModel : ViewModel() {
             }
         }
     }
-
 
 
 }

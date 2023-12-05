@@ -54,7 +54,7 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener, View.OnFocus
             mBinding.progressBar.isVisible = it
         }
         mViewModel.getErrorMessage().observe(this) {
-            //fullname , emaim , passwd
+            //fullname , email , password
             val formErrorKeys = arrayOf("fullname", "email", "phone", "password")
             val message = StringBuilder()
             it.map { entry ->

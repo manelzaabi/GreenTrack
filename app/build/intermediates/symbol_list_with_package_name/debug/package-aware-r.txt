@@ -3230,6 +3230,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editBtn
 id editText
 id editText2
 id editText3
@@ -3292,7 +3293,6 @@ id imageView
 id imageView1
 id imageView2
 id imageView3
-id imageView8
 id immediateStop
 id included
 id indeterminate
@@ -3413,6 +3413,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordBtn
 id passwordEt
 id passwordTil
 id password_toggle
@@ -3420,6 +3421,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone
 id phoneEt
 id phoneTil
 id pin
@@ -3444,6 +3446,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3551,7 +3554,6 @@ id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id textView8
 id textView9
 id text_input_end_icon

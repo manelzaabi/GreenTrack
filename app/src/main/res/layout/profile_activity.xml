@@ -46,15 +46,15 @@
         android:text="Fullname"
         android:textColor="@color/Primary"
         android:textSize="24dp"
-        android:textStyle="bold"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
         app:layout_constraintStart_toStartOf="@+id/linearLayout2"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="62dp"
-        android:layout_height="21dp"
+        android:layout_width="295dp"
+        android:layout_height="28dp"
         android:text="Email"
         android:textAlignment="center"
         android:textColor="@color/Primary"
@@ -191,10 +191,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Fullname"
-                android:textStyle="italic"
                 android:textAlignment="viewEnd"
                 android:textColor="#5b5b5b"
                 android:textSize="18dp"
+                android:textStyle="italic"
 
                 />
         </LinearLayout>
@@ -230,9 +230,9 @@
                 android:layout_weight="1"
                 android:text="Email"
                 android:textAlignment="viewEnd"
-                android:textStyle="italic"
                 android:textColor="#5b5b5b"
                 android:textSize="18dp"
+                android:textStyle="italic"
 
                 />
         </LinearLayout>
@@ -262,14 +262,16 @@
                 android:textSize="18dp" />
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/passwordBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:clickable="true"
                 android:text="Change"
                 android:textAlignment="viewEnd"
                 android:textColor="#5b5b5b"
                 android:textSize="18dp"
+                android:textStyle="bold"
 
                 />
         </LinearLayout>
@@ -283,14 +285,6 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="30dp"
-        android:layout_height="33dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_drive_file_rename_outline_24" />
-
-    <ImageView
         android:id="@+id/btn_img"
         android:layout_width="35dp"
         android:layout_height="33dp"
@@ -300,6 +294,23 @@
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
         app:srcCompat="@drawable/baseline_add_a_photo_24" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/editBtn"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background"
+        android:text="Edit Profile"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintVertical_bias="0.381"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

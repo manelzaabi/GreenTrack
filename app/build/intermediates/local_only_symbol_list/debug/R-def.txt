@@ -42,6 +42,7 @@ id appCompatImageView3
 id appCompatImageView4
 id btn_img
 id cardView
+id editBtn
 id editText
 id editText2
 id editText3
@@ -56,7 +57,6 @@ id imageView
 id imageView1
 id imageView2
 id imageView3
-id imageView8
 id linearLayout
 id linearLayout2
 id linearLayout3
@@ -66,14 +66,17 @@ id otpDigit1
 id otpDigit2
 id otpDigit3
 id otpDigit4
+id passwordBtn
 id passwordEt
 id passwordTil
+id phone
 id phoneEt
 id phoneTil
 id privacypolicy
 id progressBar
 id registerBtn
 id registreBtn
+id save
 id textView
 id textView1
 id textView10
@@ -84,7 +87,6 @@ id textView3
 id textView4
 id textView5
 id textView6
-id textView7
 id textView8
 id textView9
 id verifypasswordEt

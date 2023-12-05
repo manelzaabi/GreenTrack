@@ -1,6 +1,7 @@
 package tn.esprit.formtaion.View
 
 import ProfileViewModel
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
@@ -28,26 +29,31 @@ class ProfileActivity : AppCompatActivity() {
         profileViewModel.authResponseLiveData.observe(this, Observer { authResponse ->
             authResponse?.let {
                 bindDataToViews(it)
-                // Add a log to check if this observer is called
                 println("Auth Response Observed: $authResponse")
             }
         })
 
-        // Observer for errorLiveData
         profileViewModel.errorLiveData.observe(this, Observer { errorMessage ->
             // Handle errors here
             errorMessage?.let {
                 println("Error: $it")
-                // You might want to display an error message to the user
             }
         })
 
         profileViewModel.authenticateProfile(authToken.toString())
+
+        binding.editBtn.setOnClickListener {
+            val intent = Intent(this@ProfileActivity, EditProfileActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.passwordBtn.setOnClickListener {
+            val intent = Intent(this@ProfileActivity, ChangePasswordActivity::class.java)
+            startActivity(intent)
+        }
     }
 
-
     private fun bindDataToViews(authResponse: AuthResponse) {
-        // Add logs to check if this function is called
         println("bindDataToViews Called")
 
         if (authResponse.user.fullname != null) {
@@ -57,5 +63,11 @@ class ProfileActivity : AppCompatActivity() {
             binding.emailAff.text = authResponse.user.email
         }
 
+        if (authResponse.user.fullname != null) {
+            binding.textView3.text = authResponse.user.fullname
+        }
+        if (authResponse.user.email != null) {
+            binding.textView4.text = authResponse.user.email
+        }
     }
 }

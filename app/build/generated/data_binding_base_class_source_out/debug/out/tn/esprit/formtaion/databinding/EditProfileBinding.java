@@ -4,20 +4,47 @@ package tn.esprit.formtaion.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 import tn.esprit.formtaion.R;
 
 public final class EditProfileBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
-  private EditProfileBinding(@NonNull ConstraintLayout rootView) {
+  @NonNull
+  public final EditText email;
+
+  @NonNull
+  public final EditText fullname;
+
+  @NonNull
+  public final EditText phone;
+
+  @NonNull
+  public final RelativeLayout progressBar;
+
+  @NonNull
+  public final AppCompatButton save;
+
+  private EditProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText email,
+      @NonNull EditText fullname, @NonNull EditText phone, @NonNull RelativeLayout progressBar,
+      @NonNull AppCompatButton save) {
     this.rootView = rootView;
+    this.email = email;
+    this.fullname = fullname;
+    this.phone = phone;
+    this.progressBar = progressBar;
+    this.save = save;
   }
 
   @Override
@@ -43,10 +70,44 @@ public final class EditProfileBinding implements ViewBinding {
 
   @NonNull
   public static EditProfileBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.email;
+      EditText email = ViewBindings.findChildViewById(rootView, id);
+      if (email == null) {
+        break missingId;
+      }
 
-    return new EditProfileBinding((ConstraintLayout) rootView);
+      id = R.id.fullname;
+      EditText fullname = ViewBindings.findChildViewById(rootView, id);
+      if (fullname == null) {
+        break missingId;
+      }
+
+      id = R.id.phone;
+      EditText phone = ViewBindings.findChildViewById(rootView, id);
+      if (phone == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      RelativeLayout progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
+      id = R.id.save;
+      AppCompatButton save = ViewBindings.findChildViewById(rootView, id);
+      if (save == null) {
+        break missingId;
+      }
+
+      return new EditProfileBinding((ConstraintLayout) rootView, email, fullname, phone,
+          progressBar, save);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

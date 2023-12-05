@@ -51,6 +51,13 @@
         <activity
             android:name="tn.esprit.formtaion.View.PrivacyPolicyActivity"
             android:exported="false" />
+        <activity
+            android:name="tn.esprit.formtaion.View.EditProfileActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="tn.esprit.formtaion.View.ChangePasswordActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
