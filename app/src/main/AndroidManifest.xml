@@ -16,8 +16,9 @@
         <activity
             android:name=".Activity_Add"
             android:exported="false" />
+
         <activity
-            android:name=".DetailActivity"
+            android:name=".ui.fragments.EventFragment"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EventActivity"
+            android:name=".ui.fragments.DetailActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
