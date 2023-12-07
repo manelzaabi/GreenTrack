@@ -27,7 +27,7 @@
 18-->[androidx.core:core:1.9.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\738147d0f85917708540e295877f94a3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:9:5-52:19
+20-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:9:5-57:19
 21        android:allowBackup="true"
 21-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:10:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -89,40 +89,46 @@
 53            android:exported="false" />
 53-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:41:13-37
 54        <activity
-54-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:42:9-45:20
+54-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:42:9-44:39
 55            android:name="tn.esprit.formtaion.View.EditProfileActivity"
-55-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:42:19-59
-56            android:exported="false" >
-56-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:43:13-37
-57        </activity>
-58        <activity
-58-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:47:9-49:40
-59            android:name="tn.esprit.formtaion.View.ChangePasswordActivity"
-59-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:48:13-56
-60            android:exported="false" />
-60-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:49:13-37
-61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-64            android:authorities="tn.esprit.formtaion.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:43:13-53
+56            android:exported="false" />
+56-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:44:13-37
+57        <activity
+57-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:46:9-50:20
+58            android:name="tn.esprit.formtaion.View.NumberOtpActivity"
+58-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:47:13-51
+59            android:exported="false" >
+59-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:48:13-37
+60        </activity>
+61        <activity
+61-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:52:9-54:40
+62            android:name="tn.esprit.formtaion.View.ChangePasswordActivity"
+62-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:53:13-56
+63            android:exported="false" />
+63-->C:\Users\Issam Gzt\Desktop\Android-PDM\app\src\main\AndroidManifest.xml:54:13-37
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+67            android:authorities="tn.esprit.formtaion.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\2fedbf8c74c9edc50a1bd4976a1d5f3e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\2fedbf8c74c9edc50a1bd4976a1d5f3e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\2fedbf8c74c9edc50a1bd4976a1d5f3e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-72        </provider>
-73    </application>
-74
-75</manifest>
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Issam Gzt\.gradle\caches\transforms-3\3ffd57255e6f9966dfb3d4f8b250b487\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\2fedbf8c74c9edc50a1bd4976a1d5f3e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\2fedbf8c74c9edc50a1bd4976a1d5f3e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Issam Gzt\.gradle\caches\transforms-3\2fedbf8c74c9edc50a1bd4976a1d5f3e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+75        </provider>
+76    </application>
+77
+78</manifest>

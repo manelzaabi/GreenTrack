@@ -35,6 +35,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, View.OnFocusCha
         mBinding.loginBtn.setOnClickListener(this)
         mBinding.registerBtn.setOnClickListener(this)
         mBinding.privacypolicy.setOnClickListener(this)
+        mBinding.forgot.setOnClickListener(this)
+
         mBinding.emailEt.onFocusChangeListener = this
         mBinding.passwordEt.onFocusChangeListener = this
         mBinding.passwordEt.setOnKeyListener(this)
@@ -182,6 +184,9 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, View.OnFocusCha
 
                 R.id.privacypolicy -> {
                     startActivity(Intent(this, PrivacyPolicyActivity::class.java))
+                }
+                R.id.forgot -> {
+                    startActivity(Intent(this , NumberOtpActivity::class.java))
                 }
             }
         }

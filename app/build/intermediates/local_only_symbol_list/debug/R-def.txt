@@ -50,6 +50,7 @@ id email
 id emailAff
 id emailEt
 id emailTil
+id forgot
 id fullNameEt
 id fullNameTil
 id fullname

@@ -39,7 +39,12 @@
         <activity
             android:name=".View.PrivacyPolicyActivity"
             android:exported="false" />
-        <activity android:name=".View.EditProfileActivity"
+        <activity
+            android:name=".View.EditProfileActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".View.NumberOtpActivity"
             android:exported="false">
 
         </activity>

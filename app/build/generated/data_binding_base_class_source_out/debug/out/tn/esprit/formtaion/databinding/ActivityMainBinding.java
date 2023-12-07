@@ -36,6 +36,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextInputLayout emailTil;
 
   @NonNull
+  public final TextView forgot;
+
+  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
@@ -61,14 +64,16 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
       @NonNull TextInputEditText emailEt, @NonNull TextInputLayout emailTil,
-      @NonNull LinearLayout linearLayout, @NonNull AppCompatButton loginBtn,
-      @NonNull ImageView loginWithGooge, @NonNull TextInputEditText passwordEt,
-      @NonNull TextInputLayout passwordTil, @NonNull TextView privacypolicy,
-      @NonNull RelativeLayout progressBar, @NonNull ConstraintLayout registerBtn) {
+      @NonNull TextView forgot, @NonNull LinearLayout linearLayout,
+      @NonNull AppCompatButton loginBtn, @NonNull ImageView loginWithGooge,
+      @NonNull TextInputEditText passwordEt, @NonNull TextInputLayout passwordTil,
+      @NonNull TextView privacypolicy, @NonNull RelativeLayout progressBar,
+      @NonNull ConstraintLayout registerBtn) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.emailEt = emailEt;
     this.emailTil = emailTil;
+    this.forgot = forgot;
     this.linearLayout = linearLayout;
     this.loginBtn = loginBtn;
     this.loginWithGooge = loginWithGooge;
@@ -124,6 +129,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.forgot;
+      TextView forgot = ViewBindings.findChildViewById(rootView, id);
+      if (forgot == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -173,7 +184,7 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, cardView, emailEt, emailTil,
-          linearLayout, loginBtn, loginWithGooge, passwordEt, passwordTil, privacypolicy,
+          forgot, linearLayout, loginBtn, loginWithGooge, passwordEt, passwordTil, privacypolicy,
           progressBar, registerBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
