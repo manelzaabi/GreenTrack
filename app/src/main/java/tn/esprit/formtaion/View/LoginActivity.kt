@@ -15,6 +15,7 @@ import tn.esprit.formtaion.R
 import tn.esprit.formtaion.Repository.AuthRepository
 import tn.esprit.formtaion.Utils.APIService
 import tn.esprit.formtaion.Utils.VibrateView
+import tn.esprit.formtaion.View.forgot_password.ForgotPasswordFirstActivity
 import tn.esprit.formtaion.ViewModel.LoginActivityViewModel
 import tn.esprit.formtaion.ViewModel.LoginActivityViewModelFactory
 import tn.esprit.formtaion.data.LoginBody
@@ -186,7 +187,7 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener, View.OnFocusCha
                     startActivity(Intent(this, PrivacyPolicyActivity::class.java))
                 }
                 R.id.forgot -> {
-                    startActivity(Intent(this , NumberOtpActivity::class.java))
+                    startActivity(Intent(this , ForgotPasswordFirstActivity::class.java))
                 }
             }
         }

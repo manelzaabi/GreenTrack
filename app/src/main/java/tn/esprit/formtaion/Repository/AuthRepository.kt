@@ -22,7 +22,7 @@ class AuthRepository(private val consummer: ApiConsummer) {
             emit(
                 RequestStatus.Error(
                     SimplifiedMessage.get(
-                        response.errorBody()!!.byteStream().reader().readText()
+                        "{'message':'Email already in use'}"
                     )
                 )
             )
@@ -91,8 +91,6 @@ class AuthRepository(private val consummer: ApiConsummer) {
                 }
             }
         }
-
-
 
 
 }

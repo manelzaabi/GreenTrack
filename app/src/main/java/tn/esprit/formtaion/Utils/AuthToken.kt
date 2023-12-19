@@ -37,6 +37,7 @@ class AuthToken private constructor(context: Context) {
     companion object {
         private const val TOKEN = "TOKEN"
         private const val TOKEN_VALUE = "TOKEN_VALUE"
+        private const val USER_ID_VALUE = "USER_ID_VALUE"
 
         @Volatile
         private var instance: AuthToken? = null
@@ -53,4 +54,8 @@ class AuthToken private constructor(context: Context) {
     var token: String?
         get() = sharedPreferences.getString(TOKEN_VALUE, null)
         set(value) = sharedPreferences.edit().putString(TOKEN_VALUE, value).apply()
+
+    var userId: String?
+        get() = sharedPreferences.getString(USER_ID_VALUE, null)
+        set(value) = sharedPreferences.edit().putString(USER_ID_VALUE, value).apply()
 }

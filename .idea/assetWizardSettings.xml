@@ -3,11 +3,6 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
-        <entry key="imageWizard">
-          <value>
-            <PersistentState />
-          </value>
-        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -23,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Issam%20Gzt/AppData/Local/Android/Sdk/icons/material/materialicons/info/baseline_info_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../../Issam%20Gzt/AppData/Local/Android/Sdk/icons/material/materialicons/calculate/baseline_calculate_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,9 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="fd8701" />
-                            <entry key="outputName" value="info_24" />
-                            <entry key="sourceFile" value="C:\Users\Issam Gzt\Desktop\Android-PDM" />
+                            <entry key="outputName" value="calcul" />
+                            <entry key="sourceFile" value="C:\Users\Issam Gzt\Documents\android\Green_Track_Android" />
                           </map>
                         </option>
                       </PersistentState>

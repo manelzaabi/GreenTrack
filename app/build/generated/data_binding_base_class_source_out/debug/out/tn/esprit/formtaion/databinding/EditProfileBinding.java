@@ -4,12 +4,13 @@ package tn.esprit.formtaion.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RelativeLayout;
+import android.widget.ImageView;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatButton;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import java.lang.NullPointerException;
@@ -19,37 +20,42 @@ import tn.esprit.formtaion.R;
 
 public final class EditProfileBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
-  public final EditText email;
+  public final Button addImageButton;
 
   @NonNull
-  public final EditText fullname;
+  public final EditText editTextEmail;
 
   @NonNull
-  public final EditText phone;
+  public final EditText editTextFullName;
 
   @NonNull
-  public final RelativeLayout progressBar;
+  public final EditText editTextPhone;
 
   @NonNull
-  public final AppCompatButton save;
+  public final ImageView imageIV;
 
-  private EditProfileBinding(@NonNull ConstraintLayout rootView, @NonNull EditText email,
-      @NonNull EditText fullname, @NonNull EditText phone, @NonNull RelativeLayout progressBar,
-      @NonNull AppCompatButton save) {
+  @NonNull
+  public final AppCompatButton saveButton;
+
+  private EditProfileBinding(@NonNull ScrollView rootView, @NonNull Button addImageButton,
+      @NonNull EditText editTextEmail, @NonNull EditText editTextFullName,
+      @NonNull EditText editTextPhone, @NonNull ImageView imageIV,
+      @NonNull AppCompatButton saveButton) {
     this.rootView = rootView;
-    this.email = email;
-    this.fullname = fullname;
-    this.phone = phone;
-    this.progressBar = progressBar;
-    this.save = save;
+    this.addImageButton = addImageButton;
+    this.editTextEmail = editTextEmail;
+    this.editTextFullName = editTextFullName;
+    this.editTextPhone = editTextPhone;
+    this.imageIV = imageIV;
+    this.saveButton = saveButton;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -74,38 +80,44 @@ public final class EditProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.email;
-      EditText email = ViewBindings.findChildViewById(rootView, id);
-      if (email == null) {
+      id = R.id.addImageButton;
+      Button addImageButton = ViewBindings.findChildViewById(rootView, id);
+      if (addImageButton == null) {
         break missingId;
       }
 
-      id = R.id.fullname;
-      EditText fullname = ViewBindings.findChildViewById(rootView, id);
-      if (fullname == null) {
+      id = R.id.editTextEmail;
+      EditText editTextEmail = ViewBindings.findChildViewById(rootView, id);
+      if (editTextEmail == null) {
         break missingId;
       }
 
-      id = R.id.phone;
-      EditText phone = ViewBindings.findChildViewById(rootView, id);
-      if (phone == null) {
+      id = R.id.editTextFullName;
+      EditText editTextFullName = ViewBindings.findChildViewById(rootView, id);
+      if (editTextFullName == null) {
         break missingId;
       }
 
-      id = R.id.progressBar;
-      RelativeLayout progressBar = ViewBindings.findChildViewById(rootView, id);
-      if (progressBar == null) {
+      id = R.id.editTextPhone;
+      EditText editTextPhone = ViewBindings.findChildViewById(rootView, id);
+      if (editTextPhone == null) {
         break missingId;
       }
 
-      id = R.id.save;
-      AppCompatButton save = ViewBindings.findChildViewById(rootView, id);
-      if (save == null) {
+      id = R.id.imageIV;
+      ImageView imageIV = ViewBindings.findChildViewById(rootView, id);
+      if (imageIV == null) {
         break missingId;
       }
 
-      return new EditProfileBinding((ConstraintLayout) rootView, email, fullname, phone,
-          progressBar, save);
+      id = R.id.saveButton;
+      AppCompatButton saveButton = ViewBindings.findChildViewById(rootView, id);
+      if (saveButton == null) {
+        break missingId;
+      }
+
+      return new EditProfileBinding((ScrollView) rootView, addImageButton, editTextEmail,
+          editTextFullName, editTextPhone, imageIV, saveButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

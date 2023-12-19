@@ -1,9 +1,40 @@
-<resources>
-    <string name="app_name">Formtaion</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GreenTrack</string>
     <string name="fullname">Fullname</string>
     <string name="email">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="password">Password</string>
     <string name="verify_password">Verify Password</string>
     <string name="register">Register</string>
+
+    <string name="image">Image</string>
+    <string name="title_place_holder">title_place_holder</string>
+    <string name="desc_placeholder">description</string>
+    <string name="date">date</string>
+
+    <string name="title_video">Video</string>
+    <string name="title_playlist">Playlist</string>
+    <string name="title_informations">Information</string>
+    <string name="image_channel">Image Channel</string>
+    <string name="logo_channel">Logo Channel</string>
+    <string name="video_thumbnail">Video Thumbnail</string>
+    <string name="search_video">Search Video</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1IjoiaWNocmFrYmVubWFobW91ZCIsImEiOiJjbHEyOGh2bXAwMXBtMmtwaDVwYXBoNnM5In0.qsD470jDDpzl7qLu1u93tQ</string>
+
+    <string name="transport">Transport</string>
+    <string name="domestic">Domestic</string>
+    <string name="waste">Waste</string>
+
+    <string name="gas">Gas consumption (m³) :</string>
+    <string name="electrique">Consumption of electricity (kWh) :</string>
+
+    <string name="about"><b>CALCUL EMPREINT CARBONE</b>\n\nDécouvrez notre application mobile tout-en-un qui simplifie le calcul de votre empreinte carbone. Que ce soit pour évaluer l\'impact environnemental de vos déplacements, mesurer la gestion de vos déchets ou comprendre les aspects domestiques, notre application offre une solution complète.En quelques étapes simples, saisissez les détails de votre transport, de vos habitudes domestiques et de la gestion de vos déchets pour obtenir une évaluation précise de votre empreinte carbone. Suivez votre progression au fil du temps, recevez des conseils personnalisés et adoptez des choix plus écologiques. Faites partie du changement positif avec notre application, car chaque action compte pour un avenir durable.</string>
+    <string name="name_here">Name Here</string>
+    <string name="email_here">Email Here</string>
+    <string name="info">Info</string>
 </resources>

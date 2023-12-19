@@ -38,7 +38,7 @@ class LoginActivityViewModel(val authRepository: AuthRepository, val application
                         user.value = it.data.user
                         // save token using shared preferences
                         AuthToken.getInstance(application.baseContext).token = it.data.token
-
+                        AuthToken.getInstance(application.baseContext).userId = user.value!!.id
                     }
 
                     is RequestStatus.Error -> {

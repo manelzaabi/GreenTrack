@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Event Form"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/titletxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textSize="18sp"
+            android:inputType="text"/>
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="238dp"
+            android:layout_height="283dp"
+            android:layout_marginTop="16dp"
+            android:scaleX="0.8"
+            android:scaleY="0.8" />
+
+        <EditText
+            android:id="@+id/desctxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textSize="18sp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/loctxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:textSize="18sp"
+            android:inputType="text"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/free"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:textSize="18sp"/>
+
+            <RadioButton
+                android:id="@+id/paid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paid"
+                android:textSize="18sp"/>
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imagePicker"
+            android:text="Add image"
+            android:textColor="@color/white"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/imageView"
+            android:src="@drawable/rectangle_56"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/detailsEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter More details.."
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click To Submit"
+            android:textSize="18sp"
+            android:textColor="#F5FBF6"
+            android:background="#B71C1C"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

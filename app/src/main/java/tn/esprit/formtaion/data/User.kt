@@ -1,10 +1,12 @@
 package tn.esprit.formtaion.data
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class User(
-    @SerializedName("_id") val _id: String,
-    val fullname: String,
-    val email: String,
-    val phone: String
-)
+    val id: String,
+    var fullname: String,
+    var email: String,
+    @SerializedName("num_tel") var phone: String,
+    @SerializedName("img") val image: String
+) : Serializable
